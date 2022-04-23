@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Tanggal Pengerjaan  : 23 April 2022-->
+<!--Nim                 : 10119082-->
+<!--Nama                : Zainul Rifqi Muwaffaq-->
+<!--Kelas               : IF2-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:backgroundTint="@color/myColor"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/profile"
+
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Zainul Rifqi Muwaffaq"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:textColor="@color/darkGray"
+                android:textStyle="bold"
+                android:text="10119082"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/darkGray"
+                android:textStyle="bold"
+                android:text="|"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textColor="@color/darkGray"
+                android:textStyle="bold"
+                android:text="AKB IF2"
+                android:textSize="14sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/darkGray"
+            android:text="Mahasiswa Universitas Komputer Indonesia Program Studi Teknik Informatika yang hanya mengerti dasar basic pemrograman namun mempunyai keinginan untuk menjadi seorang programmer suatu hari nanti,  mengerti juga sedikit tentang design, dan juga memiliki pengalaman dalam pembuatan front end website sederhana dan UI website sederhana"
+            android:textSize="14sp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
